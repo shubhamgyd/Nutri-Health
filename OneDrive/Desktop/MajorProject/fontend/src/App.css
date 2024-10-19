@@ -60,7 +60,7 @@
   margin: 7rem auto;
 }
 
-.login-container fieldset{
+.login-container fieldset {
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -69,7 +69,7 @@
 
 .login-container input {
   width: 70%;
-  font-size: 0.90rem;
+  font-size: 0.9rem;
 }
 
 .login {
@@ -87,11 +87,52 @@
   gap: 1.5rem;
 }
 
+.drag-container {
+  width: 100vw;
+  height: 91vh;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .drag-area {
   width: 50vw;
   height: 70vh;
+  border: 2px dotted black;
+  background-size: 70%;
+  background-position: 50% 1rem;
+  background-repeat: no-repeat;
+  /* padding: 1rem; */
+  position: relative;
+  border-radius: 10px;
 }
 
 .drag-over {
-  background-color: bisque;
+  border-color: #007bff;
+  background-color: #e3f2fd;
+}
+
+.choice {
+  position: absolute;
+  bottom: 8rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.selectFileButton {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15rem;
+  height: 3rem;
+  color: #fafafa;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border-radius: 5px;
+  cursor: pointer;
 }
