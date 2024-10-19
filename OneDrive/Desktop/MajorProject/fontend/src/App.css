@@ -86,3 +86,12 @@
   align-items: center;
   gap: 1.5rem;
 }
+
+.drag-area {
+  width: 50vw;
+  height: 70vh;
+}
+
+.drag-over {
+  background-color: bisque;
+}
